@@ -1,6 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 
-html{
+html {
 	scroll-behavior: smooth;
 }
 
@@ -12,7 +13,7 @@ html{
 	--main-text: #fff;
 	--highlight: #4F80E1;
 	--high_grad: linear-gradient(45deg, #091555, #394d79);
-	--medium_grad: linear-gradient(45deg,#09145581, #394d7984);
+	--medium_grad: linear-gradient(45deg, #09145581, #394d7984);
 	--ambient_grad: linear-gradient(282.52deg, #143877 0%, #FF7FEF 100%);
 }
 
@@ -25,7 +26,7 @@ body {
 	padding: 0;
 	margin: 0;
 	background: var(--ambient_grad);
-	font-family: 'open Sans', sans-serif;
+	font-family: 'Poppins', sans-serif;
 }
 
 body a {
@@ -225,7 +226,7 @@ img {
 .main .navbar {
 	background: var(--medium_grad);
 	display: flex;
-    align-items: center;
+	align-items: center;
 }
 
 .navbar-header h1 {
@@ -850,7 +851,7 @@ h3.game_title {
 	-ms-background-size: cover;
 	position: relative;
 	min-height: 450px;
-    padding: 160px 0px 0px 0px;
+	padding: 160px 0px 0px 0px;
 }
 
 .wthree_info {
@@ -867,7 +868,6 @@ h3.game_title {
 	text-transform: capitalize;
 	color: #fff;
 	letter-spacing: 2px;
-	font-style: italic;
 	font-size: 16px;
 	text-align: center;
 }
@@ -3849,7 +3849,7 @@ li>a {
 	}
 
 	.footer h4 {
-		font-size: 35px;
+		font-size: 34px;
 	}
 
 	figure.effect-zoe h3 {
@@ -4319,10 +4319,11 @@ li>a {
 		height: 225px;
 	}
 
-	.navbar-header img {
-		margin-left: 5%;
-		width: 25%;
+	.wthree_info_grid {
+		width: 85%;
+		margin-left: 25px;
 	}
+
 
 	.trend-ltpwrlayouts h2,
 	.new-ltpwr-agile h3,

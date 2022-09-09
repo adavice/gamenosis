@@ -25,7 +25,7 @@ body {
 	color: var(--main-text);
 	padding: 0;
 	margin: 0;
-	background: var(--ambient_grad);
+	background: var(--high_grad);
 	font-family: 'Poppins', sans-serif;
 }
 
@@ -236,6 +236,7 @@ img {
 
 .navbar-header img {
 	width: 200px;
+	filter: drop-shadow(2px 4px 6px #102856);
 }
 
 .navbar-nav>li {
@@ -650,17 +651,17 @@ h3.game_title {
 
 .view h4 {
 	text-transform: capitalize;
-	height: 40px;
+	height: 20px;
 	overflow: hidden;
 	color: #fff;
 	text-align: center;
 	position: relative;
-	font-size: 2.5em;
+	font-size: 1.5em;
 	letter-spacing: 2px;
 }
 
 .view p {
-	font-size: 1em;
+	font-size: 0.8em;
 	position: relative;
 	color: #fff !important;
 	padding: 0.5em 0;
@@ -683,17 +684,14 @@ h3.game_title {
 
 .flex_holder {
 	margin: auto;
-
-
 }
 
 
 .flex_holder p {
-	padding: 0 30px;
+	padding: 10px 30px 0 30px;
 }
 
 .view-eighth h2 {
-
 	-webkit-transition: all 0.2s ease-in-out 0.1s;
 	-moz-transition: all 0.2s ease-in-out 0.1s;
 	transition: all 0.2s ease-in-out 0.1s;
@@ -771,10 +769,12 @@ h3.game_title {
 
 /*--services--*/
 .services-agileits-ltpwrlayouts {
-	background: var(--high_grad);
 	color: #fff;
 	position: relative;
 	overflow: hidden;
+	background: url(../images/bg_2.jpg) no-repeat 0px 0px, #1a2846;
+	background-blend-mode: soft-light;
+	background-size: cover;
 }
 
 .service-grid-agileits {
@@ -842,7 +842,7 @@ h3.game_title {
 
 /*-- services bottom --*/
 .services-bottom-ltpwr-agileits {
-	background: url(../images/sbbg.jpg) no-repeat 0px 0px;
+	background: url(../images/bg.jpg) no-repeat 0px 0px, #1a2846;
 	background-size: cover;
 	background-attachment: fixed;
 	-webkit-background-size: cover;
@@ -852,6 +852,7 @@ h3.game_title {
 	position: relative;
 	min-height: 450px;
 	padding: 160px 0px 0px 0px;
+	background-blend-mode: soft-light;
 }
 
 .wthree_info {
@@ -864,7 +865,8 @@ h3.game_title {
 	margin-bottom: 10px;
 }
 
-.wthree_info p {
+.wthree_info p,
+.services-agileits-ltpwrlayouts.main_video_bg p {
 	text-transform: capitalize;
 	color: #fff;
 	letter-spacing: 2px;
@@ -883,8 +885,8 @@ a.learn {
 
 a.learn:hover {
 	color: #fff;
-	border: 2px solid var(--highlight);
-	background: var(--highlight);
+	border: 2px solid var(--primary);
+	background: var(--primary);
 }
 
 /*-- //services bottom --*/
@@ -893,9 +895,12 @@ a.learn:hover {
 .footer {
 	padding: 35px 0px;
 	color: var(--main-text);
-	background: var(--high_grad);
+	background: url(../images/bg_3.jpg) no-repeat 0px 0px, #1a2846;
 	display: block;
 	height: fit-content;
+	background-size: cover;
+	background-blend-mode: soft-light;
+	background-position: center;
 }
 
 .footer .links {
@@ -926,6 +931,7 @@ a.learn:hover {
 	color: var(--main-text);
 	font-size: 40px;
 	margin-bottom: 30px;
+	text-shadow: 0 0 10px #fff;
 }
 
 .footer-left-ltpwr ul li {
@@ -944,7 +950,7 @@ a.learn:hover {
 
 .footer-left-ltpwr ul li h6 {
 	font-size: 18px;
-	color: #b7b7b7;
+	color: #fff;
 	margin-left: 15px;
 	text-align: left;
 }
@@ -967,6 +973,7 @@ a.learn:hover {
 	display: block;
 	margin: auto;
 	margin-bottom: 30px;
+	filter: drop-shadow(2px 4px 6px #102856);
 }
 
 .footer-right-ltpwr p {
@@ -982,7 +989,7 @@ p.agileinfo {
 .copyright p {
 	text-align: center;
 	font-size: 14px;
-	color: #808080;
+	color: #bdbdbd;
 	border-top: 1px dotted #000;
 	padding: 30px 0px 0 0px;
 }
@@ -4187,7 +4194,8 @@ li>a {
 		font-size: 30px;
 	}
 
-	.wthree_info p {
+	.wthree_info p,
+	.services-agileits-ltpwrlayouts.main_video_bg p {
 		font-size: 14px;
 		letter-spacing: 1px;
 	}
@@ -4565,7 +4573,8 @@ li>a {
 		font-size: 23px;
 	}
 
-	.wthree_info p {
+	.wthree_info p,
+	.services-agileits-ltpwrlayouts.main_video_bg p {
 		font-size: 14px;
 		letter-spacing: 1px;
 		width: 90%;
